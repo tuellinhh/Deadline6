@@ -201,12 +201,9 @@ flex-wrap: wrap;
    flex: 1 1 345px;
     height: 267px;
 }
+
 .section3 .item-3 {
-   flex: 1 1 216px;
-    height: 300px;
-}
-.section3 .item-3 {
-   flex: 1 1 216px;
+   flex: 1 1 220px;
     height: 300px;
 }  
 .section4 .item-4 {
@@ -243,5 +240,9 @@ flex-wrap: wrap;
 .container {
     width: 992px;
     max-width: 100%;
+}
+.section4 .item-4 {
+   flex: 1 1 345px;
+    height: 300px;
 }
 }
