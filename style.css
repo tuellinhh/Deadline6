@@ -1,7 +1,10 @@
 body {
     box-sizing: border-box;
     margin: 0;
+    min-height: 100%;
+   
 }
+
 .box {
     background-color: #e2e2e2;
     justify-content: center;
@@ -10,81 +13,104 @@ body {
     font-size: 20px;
     border-radius: 8px;
 }
+
 .container {
     width: 1200px;
     margin: 0 auto;
-    
+    max-width: 100%;
+    padding: 0 20px;
+
 }
+
 .header {
-    padding: 18px 0;
+    padding: 18px 40px;
 }
+
 .header-logo {
-    width: 200px;
+   width: 200px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
+
 .header-menu {
     height: 34px;
-    width: 820px;
+    flex: 1 ;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
 .header-button {
     padding: 0 20px;
+    width: 120px;
     height: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
-.header-inner{
+
+.header-inner {
     display: flex;
     gap: 30px;
     align-items: center;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
 }
 
 
 .section1 {
     background-color: #f1f1f1;
     padding: 80px 0;
+    justify-content: space-between;
 }
+
 .section1 .header-inner {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 }
+
 .section1 .hero-image {
-    width: 585px;
+   flex: 1 1 585px;
     height: 520px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .section1 .hero-content {
-    width: 585px;
+   flex: 1 1 585px;
     height: 267px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .section2 {
     padding: 80px 0;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
+
 .section2 .header-inner {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
 
 }
+
 .section2 .item-2 {
     height: 420px;
-    width: 380px;
+    flex: 1 1 380px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,52 +119,129 @@ body {
 
 .section3 {
     background-color: #f1f1f1;
-    padding: 80px 0;    
+    padding: 80px 0;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
+
 .section3 .header-inner {
     display: flex;
     gap: 30px;
-
+flex-wrap: wrap;
 }
+
 .section3 .item-3 {
-    width: 216px;
+   flex: 1 1 216px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .section4 {
     padding: 80px 0;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
+
 .section4 .header-inner {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
+
 .section4 .item-4 {
-    width: 277.5px;
+   flex: 1 1 277.5px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .box-title {
     display: flex;
     margin: 0 auto 40px auto;
     font-family: #e0e0e0;
     height: 80px;
     width: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
 .footer {
-    background-color:#e0e0e0;
+    background-color: #e0e0e0;
     width: 100%;
     height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 700;
+    font-style: normal;
     font-size: 20px;
 }
+
 .hero-content {
     background-color: #e2e2e2;
 
+}
+@media screen and ( max-width: 992px ) {
+.header {
+    padding: 60px 80px;
+}
+.section1 .hero-image {
+   flex: 1 1 345px;
+    height: 310px;
+    
+}
+.section1 .hero-content {
+   flex: 1 1 345px;
+    height: 267px;
+}
+.section3 .item-3 {
+   flex: 1 1 216px;
+    height: 300px;
+}
+.section3 .item-3 {
+   flex: 1 1 216px;
+    height: 300px;
+}  
+.section4 .item-4 {
+   flex: 1 1 277.5px;
+    height: 300px;
+}
+.section1 {
+    margin: 0 auto 8px auto;
+    min-height: 100%;
+}
+.section2 .item-2 {
+    height: 420px;
+    flex: 1 1 345px;
+}
+.section2 {
+    padding: 80px 0;
+}
+.header {
+    padding: 18px 136px;
+
+}
+.header-logo {
+   width: 140px;
+    height: 42px;
+}
+.header-menu {
+    height: 30px;
+}
+.header-button {
+    padding: 0 15px;
+    width: 102px;
+    height: 36px;
+}
+.container {
+    width: 992px;
+    max-width: 100%;
+}
 }
