@@ -63,12 +63,9 @@
 }
 
 @media screen and (max-width: 576px) {
-    .header {
+     .header {
         padding: 20px 18px;
-     justify-content: space-around; 
-    
-
-    }
+    } 
 
     .section1 .hero-image {
         flex: 1 1 345px;
@@ -96,24 +93,18 @@
     }
 
     .header-logo {
-        flex:1 1 66px;
-        height: 36px;
-         text-align: center;
-
+        width: 140px;
+        height: 42px;
     }
 
     .header-menu {
-        height: 42px;
-        width: 140px;
-        text-align: left;
-
+        height: 36px;
     }
 
     .header-button {
         padding: 0 15px;
         width: 78px;
         height: 36px;
-         text-align: right;
     }
 
     .container {
@@ -136,15 +127,6 @@
     }
 
     .section4 .header-inner {
-        grid-template-columns: auto auto;
+        grid-template-columns:  auto auto ;
     }
-.head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-gap: 40px;
 }
-}
-    
-    
-
