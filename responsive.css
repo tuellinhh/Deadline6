@@ -63,9 +63,9 @@
 }
 
 @media screen and (max-width: 576px) {
-    /* .header {
-        padding: 60px 80px;
-    } */
+     .header {
+        padding: 20px 18px;
+    } 
 
     .section1 .hero-image {
         flex: 1 1 345px;
@@ -98,12 +98,12 @@
     }
 
     .header-menu {
-        height: 30px;
+        height: 36px;
     }
 
     .header-button {
         padding: 0 15px;
-        width: 102px;
+        width: 78px;
         height: 36px;
     }
 
