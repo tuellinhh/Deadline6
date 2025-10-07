@@ -1,6 +1,6 @@
 @media screen and (max-width: 992px) {
     .header {
-        padding: 10px 0;
+        padding: 10px 20px;
     }
 
     .section1 .hero-image {
@@ -63,9 +63,12 @@
 }
 
 @media screen and (max-width: 576px) {
-     .header {
+    .header {
         padding: 20px 18px;
-    } 
+     justify-content: space-around; 
+    
+
+    }
 
     .section1 .hero-image {
         flex: 1 1 345px;
@@ -93,18 +96,24 @@
     }
 
     .header-logo {
-        width: 140px;
-        height: 42px;
+        flex:1 1 66px;
+        height: 36px;
+         text-align: center;
+
     }
 
     .header-menu {
-        height: 36px;
+        height: 42px;
+        width: 140px;
+        text-align: left;
+
     }
 
     .header-button {
         padding: 0 15px;
         width: 78px;
         height: 36px;
+         text-align: right;
     }
 
     .container {
@@ -127,6 +136,15 @@
     }
 
     .section4 .header-inner {
-        grid-template-columns:  auto auto ;
+        grid-template-columns: auto auto;
     }
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+gap: 40px;
 }
+}
+    
+    
+
